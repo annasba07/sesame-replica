@@ -1,0 +1,29 @@
+{
+  "phase1_voice_understanding": {
+    "duration": "2 epochs",
+    "focus": "RVQ reconstruction",
+    "loss_weights": {
+      "rvq": 1.0,
+      "text": 0.0,
+      "cross_modal": 0.0
+    }
+  },
+  "phase2_text_alignment": {
+    "duration": "3 epochs",
+    "focus": "Text-voice alignment",
+    "loss_weights": {
+      "rvq": 0.5,
+      "text": 0.5,
+      "cross_modal": 0.5
+    }
+  },
+  "phase3_conversation": {
+    "duration": "5 epochs",
+    "focus": "Full conversational training",
+    "loss_weights": {
+      "rvq": 0.3,
+      "text": 0.3,
+      "cross_modal": 0.4
+    }
+  }
+}
