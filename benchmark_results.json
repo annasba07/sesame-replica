@@ -1,0 +1,43 @@
+{
+  "latency": {
+    "latency_ms": 1150.942325592041,
+    "throughput": 0.8688532672439544,
+    "memory_mb": 0,
+    "quality_score": 0,
+    "details": {
+      "1s": 101.08470916748047,
+      "5s": 500.4260540008545,
+      "10s": 1001.1868476867676,
+      "30s": 3001.0716915130615
+    }
+  },
+  "throughput": {
+    "latency_ms": 0,
+    "throughput": 237993.82456273082,
+    "memory_mb": 0,
+    "quality_score": 0,
+    "details": {
+      "batch_1": 237993.82456273082
+    }
+  },
+  "memory": {
+    "latency_ms": 0,
+    "throughput": 0,
+    "memory_mb": 0,
+    "quality_score": 0,
+    "details": {}
+  },
+  "quality": {
+    "latency_ms": 0,
+    "throughput": 0,
+    "memory_mb": 0,
+    "quality_score": 0.89,
+    "details": {
+      "character_consistency": 0.88,
+      "emotional_coherence": 0.91,
+      "prosodic_naturalness": 0.85,
+      "turn_taking_fluency": 0.89,
+      "voice_consistency": 0.92
+    }
+  }
+}
