@@ -1,0 +1,18 @@
+{
+  "sesame_model": "checkpoints/csm_gpu_final.pt",
+  "openai_api_key": null,
+  "mode": "therapy",
+  "log_level": "INFO",
+  "features": {
+    "crisis_detection": true,
+    "emotion_tracking": true,
+    "session_summary": true,
+    "suggestions": true
+  },
+  "response_settings": {
+    "immediate_max_latency_ms": 50,
+    "thoughtful_max_latency_ms": 2000,
+    "temperature": 0.7,
+    "max_tokens": 200
+  }
+}
